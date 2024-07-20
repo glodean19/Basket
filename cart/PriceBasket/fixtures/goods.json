@@ -1,0 +1,34 @@
+[
+  {
+    "model": "PriceBasket.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "Soup",
+      "price": 0.65
+    }
+  },
+  {
+    "model": "PriceBasket.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "Bread",
+      "price": 0.8
+    }
+  },
+  {
+    "model": "PriceBasket.product",
+    "pk": 3,
+    "fields": {
+      "product_name": "Milk",
+      "price": 1.30
+    }
+  },
+  {
+    "model": "PriceBasket.product",
+    "pk": 4,
+    "fields": {
+      "product_name": "Apples",
+      "price": 1.00
+    }
+  }
+]
