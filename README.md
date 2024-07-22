@@ -1,12 +1,12 @@
 
-Django-cart
+# Django-cart
 
 
 This app calculates the total price for a basket of items, applying special offers and discount where applicable.
 
 
 
-Quick-start
+# Quick-start
 
 
 1. Clone the repository
@@ -31,7 +31,7 @@ Quick-start
 
 
 
-More details
+# More details
 
 
 Step for creating the Django project. (virtualenvwrapper already installed)
