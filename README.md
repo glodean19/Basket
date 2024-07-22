@@ -1,5 +1,5 @@
 
-django-cart
+Django-cart
 
 
 This app calculates the total price for a basket of items, applying special offers and discount where applicable.
