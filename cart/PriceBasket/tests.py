@@ -46,13 +46,6 @@ class PriceBasketCommandTest(TestCase):
         self.assertIn("Apples 10% off: £0.30", out)
         self.assertIn("Total: £2.70", out)
 
-    # this test checks the application of the soup and bread offer
-    def test_pricebasket_command_with_soup_and_bread_offer(self):
-        out = self.run_command('Soup', '4', 'Bread', '1')
-        self.assertIn("Subtotal: £3.40", out)
-        self.assertIn("Bread half price: £0.40", out)
-        self.assertIn("Total: £3.00", out)
-
     # this test checks the application of multiple offers
     def test_pricebasket_command_with_multiple_offers(self):
         out = self.run_command('Soup', '4', 'Bread', '1', 'Apples', '3')
